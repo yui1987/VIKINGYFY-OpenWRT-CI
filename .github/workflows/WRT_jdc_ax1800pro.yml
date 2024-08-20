@@ -158,19 +158,19 @@ jobs:
           cd ./wrt/
           #_______________我添加的___________________________________________________________________________________
           echo >> feeds.conf.default
-          echo "src-git nas https://github.com/linkease/nas-packages.git" >> ./feeds.conf.default
-          echo "src-git nas_luci https://github.com/linkease/nas-packages-luci.git" >> ./feeds.conf.default
+          #echo "src-git nas https://github.com/linkease/nas-packages.git" >> ./feeds.conf.default
+          #echo "src-git nas_luci https://github.com/linkease/nas-packages-luci.git" >> ./feeds.conf.default
           echo "src-git istore https://github.com/linkease/istore" >> ./feeds.conf.default
           #echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
           #echo "src-git kenzok8 https://github.com/kenzok8/small-package.git" >> ./feeds.conf.default
           #echo "src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git" >> ./feeds.conf.default
           #echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> ./feeds.conf.default
           
-          ./scripts/feeds update nas nas_luci
+          #./scripts/feeds update nas nas_luci
           ./scripts/feeds update istore
           
-          ./scripts/feeds install -a -p nas
-          ./scripts/feeds install -a -p nas_luci
+          #./scripts/feeds install -a -p nas
+          #./scripts/feeds install -a -p nas_luci
           ./scripts/feeds install -d y -p istore luci-app-store
           #______________________________________________________________________________________________________________
           ./scripts/feeds update -a
@@ -193,11 +193,11 @@ jobs:
           #_______________我添加的_______________________________________________________________________________________________
           echo "CONFIG_PACKAGE_luci-app-store=y" >> ./.config
           
-          echo "CONFIG_PACKAGE_luci-app-linkease=y" >> ./.config
-          echo "CONFIG_PACKAGE_luci-i18n-linkease-zh-cn=y" >> ./.config
-          echo "CONFIG_PACKAGE_linkease=y" >> ./.config
-          echo "CONFIG_PACKAGE_ffmpeg-remux=y" >> ./.config
-          echo "CONFIG_PACKAGE_linkmount=y" >> ./.config
+          #echo "CONFIG_PACKAGE_luci-app-linkease=y" >> ./.config
+          #echo "CONFIG_PACKAGE_luci-i18n-linkease-zh-cn=y" >> ./.config
+          #echo "CONFIG_PACKAGE_linkease=y" >> ./.config
+          #echo "CONFIG_PACKAGE_ffmpeg-remux=y" >> ./.config
+          #echo "CONFIG_PACKAGE_linkmount=y" >> ./.config
           
           echo "CONFIG_PACKAGE_docker=y" >> ./.config
           echo "CONFIG_PACKAGE_dockerd=y" >> ./.config
