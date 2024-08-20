@@ -59,7 +59,7 @@ jobs:
       - name: Checkout Projects
         uses: actions/checkout@main
 
-      - name: Free Disk Space（可用磁盘空间）
+      - name: Free Disk Space（清理磁盘空间）
         uses: endersonmenezes/free-disk-space@main
         with:
           remove_android: true
