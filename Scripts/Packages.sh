@@ -21,10 +21,6 @@ UPDATE_PACKAGE() {
 }
 
 #UPDATE_PACKAGE "包名" "项目地址" "项目分支" "pkg/name，可选，pkg为从大杂烩中单独提取包名插件；name为重命名为包名"
-# 我添加的---------------------------------------------------------------------------------------
-
-
-# 我添加的---------------------------------------------------------------------------------------
 
 UPDATE_PACKAGE "argon" "jerrykuku/luci-theme-argon" "$([[ $WRT_REPO == *"lede"* ]] && echo "18.06" || echo "master")"
 UPDATE_PACKAGE "design" "0x676e67/luci-theme-design" "$([[ $WRT_REPO == *"lede"* ]] && echo "main" || echo "js")"
@@ -39,7 +35,19 @@ UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-wolplus" "animegasan/luci-app-wolplus" "main"
 
-
+# 我添加的---------------------------------------------------------------------------------------
+UPDATE_PACKAGE "luci-app-adbyby-plus" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "adbyby" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-wrtbwmon" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "wrtbwmon" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-lib-taskd" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "taskd" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-lib-xterm" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-disks-info" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-poweroff" "esirplayground/luci-app-poweroff" "master"
+UPDATE_PACKAGE "luci-app-onliner" "haiibo/packages" "main" "pkg"
+#UPDATE_PACKAGE "" "kiddin9/openwrt-packages" "master" "pkg"
+# 我添加的---------------------------------------------------------------------------------------
 
 if [[ $WRT_REPO != *"lede"* ]]; then
 	UPDATE_PACKAGE "daed" "QiuSimons/luci-app-daed" "master"
