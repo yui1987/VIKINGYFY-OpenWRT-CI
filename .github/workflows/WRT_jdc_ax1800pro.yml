@@ -192,11 +192,18 @@ jobs:
 
           #_______________我添加的_______________________________________________________________________________________________
           echo "CONFIG_PACKAGE_luci-app-store=y" >> ./.config
+          
           echo "CONFIG_PACKAGE_luci-app-linkease=y" >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-linkease-zh-cn=y" >> ./.config
           echo "CONFIG_PACKAGE_linkease=y" >> ./.config
           echo "CONFIG_PACKAGE_ffmpeg-remux=y" >> ./.config
           echo "CONFIG_PACKAGE_linkmount=y" >> ./.config
+          
+          echo "CONFIG_PACKAGE_docker=y" >> ./.config
+          echo "CONFIG_PACKAGE_dockerd=y" >> ./.config
+          echo "CONFIG_PACKAGE_dockerman=y" >> ./.config
+          echo "CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y" >> ./.config
+          echo "luci-lib-docker=y" >> ./.config
           #______________________________________________________________________________________________________________________
           
           cat $GITHUB_WORKSPACE/Config/$WRT_TARGET.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
