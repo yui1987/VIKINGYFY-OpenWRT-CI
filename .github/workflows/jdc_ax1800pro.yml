@@ -33,8 +33,8 @@ jobs:
         TARGET: [IPQ60XX-WIFI-YES]
         SOURCE: [VIKINGYFY/immortalwrt]
 
-    #调用公用编译核心WRT-CORE.yml
-    uses: ./.github/workflows/WRT-CORE.yml
+    #调用公用编译核心WRT_jdc_ax1800pro.yml
+    uses: ./.github/workflows/WRT_jdc_ax1800pro.yml
     with:
       #编译平台
       WRT_TARGET: ${{matrix.TARGET}}
