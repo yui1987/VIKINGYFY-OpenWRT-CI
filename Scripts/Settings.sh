@@ -56,7 +56,7 @@ else
 	echo "CONFIG_PACKAGE_luci-app-homeproxy=y" >> ./.config
 fi
 
-#自定义
+# 我添加的---------------------------------------------------------------------------------------
 echo "CONFIG_PACKAGE_adbyby=y"  >> ./.config
 echo "CONFIG_PACKAGE_cpufreq=y"  >> ./.config
 echo "CONFIG_PACKAGE_cpulimit=y"  >> ./.config
@@ -110,4 +110,4 @@ echo "CONFIG_PACKAGE_v2raya=y"  >> ./.config
 echo "CONFIG_PACKAGE_verysync=y"  >> ./.config
 echo "CONFIG_PACKAGE_wrtbwmon=y"  >> ./.config
 echo "CONFIG_PACKAGE_zerotier=y"  >> ./.config
-
+# 我添加的---------------------------------------------------------------------------------------
