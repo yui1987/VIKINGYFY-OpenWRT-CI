@@ -4,8 +4,6 @@
           
           echo "CONFIG_PACKAGE_luci-app-store=y"  >> ./.config
 
-
-
           echo "CONFIG_PACKAGE_luci-app-ssr-plus=y"  >> ./.config
           echo "CONFIG_PACKAGE_adbyby=y"  >> ./.config
           echo "CONFIG_PACKAGE_cpufreq=y"  >> ./.config
@@ -74,6 +72,7 @@
           echo "CONFIG_PACKAGE_ffmpeg-remux=y"  >> ./.config
           echo "CONFIG_PACKAGE_linkmount=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
+          
           echo "CONFIG_PACKAGE_luci-theme-netgear=y"  >> ./.config
           echo "CONFIG_PACKAGE_adguardhome=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-adguardhome=y"  >> ./.config
