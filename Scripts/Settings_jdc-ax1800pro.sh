@@ -69,11 +69,11 @@
           echo "CONFIG_PACKAGE_wrtbwmon=y"  >> ./.config
           echo "CONFIG_PACKAGE_zerotier=y"  >> ./.config
           
-          echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
+
           echo "CONFIG_PACKAGE_linkease=y"  >> ./.config
           echo "CONFIG_PACKAGE_ffmpeg-remux=y"  >> ./.config
           echo "CONFIG_PACKAGE_linkmount=y"  >> ./.config
-
+          echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-theme-netgear=y"  >> ./.config
           echo "CONFIG_PACKAGE_adguardhome=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-adguardhome=y"  >> ./.config
