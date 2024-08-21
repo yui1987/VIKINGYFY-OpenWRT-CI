@@ -156,7 +156,7 @@ jobs:
       - name: Update Feeds（更新订阅源）
         run: |
           cd ./wrt/
-          #_______________我添加的___________________________________________________________________________________
+          #_______________我添加的_____________________
           echo >> feeds.conf.default
           #echo "src-git nas https://github.com/linkease/nas-packages.git" >> ./feeds.conf.default
           #echo "src-git nas_luci https://github.com/linkease/nas-packages-luci.git" >> ./feeds.conf.default
@@ -172,7 +172,7 @@ jobs:
           #./scripts/feeds install -a -p nas
           #./scripts/feeds install -a -p nas_luci
           ./scripts/feeds install -d y -p istore luci-app-store
-          #_________________我添加的_____________________________________________________________________________________________
+          #_________________我添加的_____________________
           ./scripts/feeds update -a
           ./scripts/feeds install -a
           
@@ -189,7 +189,7 @@ jobs:
           cd ./wrt/
 
           rm -rf ./tmp* ./.config*
-          #_______________我添加的_______________________________________________________________________________________________
+          #_______________我添加的_____________________
           echo"CONFIG_PACKAGE_luci-app-store=y"  >> ./.config
 
           echo"CONFIG_PACKAGE_docker=y"  >> ./.config
@@ -252,7 +252,7 @@ jobs:
           echo "CONFIG_PACKAGE_wrtbwmon=y"  >> ./.config
           echo "CONFIG_PACKAGE_zerotier=y"  >> ./.config
 
-          #_______________我添加的_______________________________________________________________________________________________
+          #_______________我添加的_____________________
  
           cat $GITHUB_WORKSPACE/Config/$WRT_TARGET.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
 
