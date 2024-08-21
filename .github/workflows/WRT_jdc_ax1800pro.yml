@@ -169,8 +169,8 @@ jobs:
           ./scripts/feeds update nas nas_luci
           ./scripts/feeds update istore
           
-          #./scripts/feeds install -a -p nas
-          #./scripts/feeds install -a -p nas_luci
+          ./scripts/feeds install -a -p nas
+          ./scripts/feeds install -a -p nas_luci
           ./scripts/feeds install -d y -p istore luci-app-store
           #_________________我添加的_____________________
           ./scripts/feeds update -a
