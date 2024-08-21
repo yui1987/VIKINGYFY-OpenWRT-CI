@@ -1,6 +1,6 @@
 #!/bin/bash
           #_______________我添加的_____________________
-          # echo ""  >> ./.config
+          # 模版  echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
           
           echo "CONFIG_PACKAGE_luci-app-store=y"  >> ./.config
 
@@ -64,5 +64,10 @@
           echo "CONFIG_PACKAGE_verysync=y"  >> ./.config
           echo "CONFIG_PACKAGE_wrtbwmon=y"  >> ./.config
           echo "CONFIG_PACKAGE_zerotier=y"  >> ./.config
+          
+          echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
+          echo "CONFIG_PACKAGE_linkease=y"  >> ./.config
+          echo "CONFIG_PACKAGE_ffmpeg-remux=y"  >> ./.config
+          echo "CONFIG_PACKAGE_linkmount=y"  >> ./.config
 
           #_______________我添加的_____________________
