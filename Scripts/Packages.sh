@@ -46,6 +46,20 @@ UPDATE_PACKAGE "luci-lib-xterm" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-disks-info" "kiddin9/openwrt-packages" "master" "pkg"
 UPDATE_PACKAGE "luci-app-poweroff" "esirplayground/luci-app-poweroff" "master"
 UPDATE_PACKAGE "luci-app-onliner" "haiibo/packages" "main" "pkg"
+
+UPDATE_PACKAGE "luci-theme-netgear" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "adguardhome" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-adguardhome" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-advanced" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-ikoolproxy" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-netdata" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "luci-app-netspeedtest" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "homebox" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "linkease" "haiibo/packages" "main" "pkg"
+UPDATE_PACKAGE "ffmpeg-remux" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "linkmount" "kiddin9/openwrt-packages" "master" "pkg"
+UPDATE_PACKAGE "luci-app-linkease" "haiibo/packages" "main" "pkg"
+
 #UPDATE_PACKAGE "" "kiddin9/openwrt-packages" "master" "pkg"
 # 我添加的---------------------------------------------------------------------------------------
 
