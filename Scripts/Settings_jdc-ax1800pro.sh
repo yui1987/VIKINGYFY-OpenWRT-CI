@@ -80,16 +80,9 @@
           echo "CONFIG_PACKAGE_luci-app-advanced=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-ikoolproxy=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-netdata=y"  >> ./.config
-          echo "CONFIG_PACKAGE_luci-app-netspeedtest=y"  >> ./.config
           echo "CONFIG_PACKAGE_homebox=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
-          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-netspeedtest=y"  >> ./.config
+
           
 
           #_______________我添加的_____________________
