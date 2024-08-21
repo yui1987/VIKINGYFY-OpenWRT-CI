@@ -6,8 +6,11 @@
 
           echo "CONFIG_PACKAGE_docker=y"  >> ./.config
           echo "CONFIG_PACKAGE_dockerd=y"  >> ./.config
+          echo "CONFIG_PACKAGE_docker-compose=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-lib-docker=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-docker=y"  >> ./.config
           echo "CONFIG_PACKAGE_dockerman=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-dockerman=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y"  >> ./.config
 
 
