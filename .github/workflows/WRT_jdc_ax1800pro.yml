@@ -189,6 +189,11 @@ jobs:
           cd ./wrt/
 
           rm -rf ./tmp* ./.config*
+          echo"CONFIG_PACKAGE_docker=y"  >> ./.config
+          echo"CONFIG_PACKAGE_dockerd=y"  >> ./.config
+          echo"CONFIG_PACKAGE_dockerman=y"  >> ./.config
+          echo"CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y"  >> ./.config
+          echo"luci-lib-docker=y"  >> ./.config
 
  
           cat $GITHUB_WORKSPACE/Config/$WRT_TARGET.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
