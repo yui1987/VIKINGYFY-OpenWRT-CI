@@ -6,10 +6,10 @@
 
           echo "CONFIG_PACKAGE_docker=y"  >> ./.config
           echo "CONFIG_PACKAGE_dockerd=y"  >> ./.config
-          echo "CONFIG_PACKAGE_docker-compose=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_docker-compose=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-lib-docker=y"  >> ./.config
-          echo "CONFIG_PACKAGE_luci-app-docker=y"  >> ./.config
-          echo "CONFIG_PACKAGE_dockerman=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_luci-app-docker=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_dockerman=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-dockerman=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-dockerman-zh-cn=y"  >> ./.config
 
@@ -73,5 +73,23 @@
           echo "CONFIG_PACKAGE_linkease=y"  >> ./.config
           echo "CONFIG_PACKAGE_ffmpeg-remux=y"  >> ./.config
           echo "CONFIG_PACKAGE_linkmount=y"  >> ./.config
+
+          echo "CONFIG_PACKAGE_luci-theme-netgear=y"  >> ./.config
+          echo "CONFIG_PACKAGE_adguardhome=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-adguardhome=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-advanced=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-ikoolproxy=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-netdata=y"  >> ./.config
+          echo "CONFIG_PACKAGE_luci-app-netspeedtest=y"  >> ./.config
+          echo "CONFIG_PACKAGE_homebox=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          echo "CONFIG_PACKAGE_=y"  >> ./.config
+          
 
           #_______________我添加的_____________________
