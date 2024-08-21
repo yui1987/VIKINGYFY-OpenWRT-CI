@@ -36,7 +36,7 @@ if [ -n "$WRT_PACKAGE" ]; then
 	echo "$WRT_PACKAGE" >> ./.config
 fi
 
-#高通平台锁定512M内存 我直接改成512 判断条件被注释
+#高通平台锁定512M内存
 if [[ $WRT_TARGET == *"IPQ"* ]]; then
 	echo "CONFIG_IPQ_MEM_PROFILE_1024=n" >> ./.config
 	echo "CONFIG_IPQ_MEM_PROFILE_512=y" >> ./.config
