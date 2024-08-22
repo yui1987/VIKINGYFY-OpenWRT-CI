@@ -66,7 +66,7 @@
           #echo "CONFIG_PACKAGE_linkmount=y"  >> ./.config
           #echo "CONFIG_PACKAGE_luci-app-linkease=y"  >> ./.config
           
-          echo "CONFIG_PACKAGE_luci-theme-netgear=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_luci-theme-netgear=y"  >> ./.config
          
 
           
