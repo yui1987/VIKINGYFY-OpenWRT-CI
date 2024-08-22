@@ -37,7 +37,7 @@
           echo "CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-eqos=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-eqos-zh-cn=y"  >> ./.config
-          echo "CONFIG_PACKAGE_luci-app-openclash=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_luci-app-openclash=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-poweroff=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y"  >> ./.config
