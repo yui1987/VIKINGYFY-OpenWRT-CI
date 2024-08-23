@@ -23,12 +23,12 @@
           echo "CONFIG_PACKAGE_luci-app-verysync=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-wrtbwmon=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-zerotier=y"  >> ./.config
+          
           echo "CONFIG_PACKAGE_luci-app-passwall=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y"  >> ./.config
-
-echo "CONFIG_PACKAGE_iptables-mod-socket=y"  >> ./.config
-echo "CONFIG_PACKAGE_iptables-mod-iprange=y"  >> ./.config
-echo "CONFIG_PACKAGE_iptables-mod-conntrack-extra=y"  >> ./.config
+          echo "CONFIG_PACKAGE_iptables-mod-socket=y"  >> ./.config
+          echo "CONFIG_PACKAGE_iptables-mod-iprange=y"  >> ./.config
+          echo "CONFIG_PACKAGE_iptables-mod-conntrack-extra=y"  >> ./.config
 
           echo "CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y"  >> ./.config
           echo "CONFIG_ARIA2_BITTORRENT=y"  >> ./.config
@@ -42,7 +42,7 @@ echo "CONFIG_PACKAGE_iptables-mod-conntrack-extra=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-eqos=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-eqos-zh-cn=y"  >> ./.config
-          #echo "CONFIG_PACKAGE_luci-app-openclash=y"  >> ./.config
+          #echo "CONFIG_PACKAGE_luci-app-openclash=y"  >> ./.config 出错
           echo "CONFIG_PACKAGE_luci-app-poweroff=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-accesscontrol-zh-cn=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y"  >> ./.config
