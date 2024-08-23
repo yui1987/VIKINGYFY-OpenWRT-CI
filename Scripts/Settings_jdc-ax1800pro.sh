@@ -25,6 +25,11 @@
           echo "CONFIG_PACKAGE_luci-app-zerotier=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-passwall=y"  >> ./.config
           echo "CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Hysteria=y"  >> ./.config
+
+echo "CONFIG_PACKAGE_iptables-mod-socket=y"  >> ./.config
+echo "CONFIG_PACKAGE_iptables-mod-iprange=y"  >> ./.config
+echo "CONFIG_PACKAGE_iptables-mod-conntrack-extra=y"  >> ./.config
+
           echo "CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y"  >> ./.config
           echo "CONFIG_ARIA2_BITTORRENT=y"  >> ./.config
           echo "CONFIG_ARIA2_NOXML=y"  >> ./.config
