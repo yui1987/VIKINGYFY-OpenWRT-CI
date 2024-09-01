@@ -190,8 +190,8 @@ jobs:
           rm -rf ./tmp* ./.config*
           cat $GITHUB_WORKSPACE/Config/$WRT_TARGET.txt $GITHUB_WORKSPACE/Config/GENERAL.txt >> .config
           $GITHUB_WORKSPACE/Scripts/Settings.sh
-          $GITHUB_WORKSPACE/Scripts/Settings_jdc-ax1800pro.sh
-          #$GITHUB_WORKSPACE/Scripts/Settings_jdc-ax1800pro_simple.sh
+          #$GITHUB_WORKSPACE/Scripts/Settings_jdc-ax1800pro.sh
+          $GITHUB_WORKSPACE/Scripts/Settings_jdc-ax1800pro_simple.sh
           make defconfig
 
       - name: Download Packages（下载软件包）
